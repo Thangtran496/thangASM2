@@ -1,0 +1,213 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+.menu>ul>li{
+    min-width:  104px;
+    list-style: none;
+    float: left;
+    margin: 15px;
+    /* padding-left: 55px; */
+}
+
+.menu>ul>li>a{
+    /* float: left; */
+    display: inline-block;
+    color: rgb(248, 204, 59);
+    box-sizing:content-box;
+    margin: 15px;
+    text-align: center;
+    font-size: x-large;
+    font-variant: small-caps;
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .menu>ul>li>a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+} */
+.menu>ul>li:hover{
+    /* box-shadow: 0px 5px gray; */
+    background-color: aqua;
+}
+
+.menume{
+    /* position: relative; */
+    box-sizing: border-box;
+}
+
+.menume .menucon{
+    /* position: relative; */
+    
+    display: none;
+    width: 152px;
+    box-sizing: border-box;
+    text-align: right;
+    background-color: blue;
+    height: 150px;
+    padding: 0px;
+    /* margin-top: 25px; */
+}
+
+.menucon>ul{
+    position: absolute;
+    box-sizing:content-box;
+     
+}
+
+.menucon>li{
+    box-sizing: border-box;
+    float: bottom;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    height: 50px;
+    width: 100%;
+    right: 5px;
+}
+
+.menu>ul{
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    height: 70px;
+    width: 10%;
+    padding: 0 20 0 20px;
+}
+
+.menu{
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    float: left;
+    top: 0;
+    z-index: 1;
+}
+
+.menu>ul>li{
+    min-width:  104px;
+    list-style: none;
+    float: left;
+    margin: 15px;
+    /* padding-left: 55px; */
+}
+
+.menu>ul>li>a{
+    /* float: left; */
+    display: inline-block;
+    color: rgb(248, 204, 59);
+    box-sizing:content-box;
+    margin: 15px;
+    text-align: center;
+    font-size: x-large;
+    font-variant: small-caps;
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .menu>ul>li>a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+} */
+.menu>ul>li:hover{
+    /* box-shadow: 0px 5px gray; */
+    background-color: aqua;
+}
+
+.menume{
+    /* position: relative; */
+    box-sizing: border-box;
+}
+
+.menume .menucon{
+    /* position: relative; */
+    
+    display: none;
+    width: 152px;
+    box-sizing: border-box;
+    text-align: right;
+    background-color: blue;
+    height: 150px;
+    padding: 0px;
+    /* margin-top: 25px; */
+}
+
+.menucon>ul{
+    position: absolute;
+    box-sizing:content-box;
+     
+}
+
+.menucon>li{
+    box-sizing: border-box;
+    float: bottom;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    height: 50px;
+    width: 100%;
+    right: 5px;
+}
+
+.menucon>li>a{
+    float: bottom;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(248, 204, 59);
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+.menume:hover>.menucon{
+    display: block;
+}
+
+.menucon:hover{
+    display: block;
+}
+
+.menume>.menucon>li:hover{
+    box-shadow: 0 0 0 15 gray;
+    background-color: rgba(0, 255, 255, 0.342);
+}
+.khung{
+    border: solid;
+    margin-top: 150px;
+    margin-left: 35%;
+    background-color: white;
+    width: 30%;
+    height: 400px;
+    float: left;
+    padding: 10px;
+}
+.khung div{
+    margin: 20px;
+}
+.nut{
+    text-align: center;
+}
+footer{
+    position: absolute;
+    background-color: black;
+    bottom: -900px;
+    height: 150px;
+    line-height: 50px;
+}
+footer>p{
+    color: aliceblue;
+    text-align: center;
+    margin: 50px;
+}
